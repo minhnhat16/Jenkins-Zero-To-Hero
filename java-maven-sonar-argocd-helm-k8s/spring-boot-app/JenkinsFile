@@ -12,7 +12,7 @@ pipeline {
         sh 'echo passed'
         cleanWs()
         checkout scm
-        git branch: 'main', url: 'https://github.com/minhnhat16/Jenkins-Zero-To-Hero.git'
+       // git branch: 'main', url: 'https://github.com/minhnhat16/Jenkins-Zero-To-Hero.git'
       }
     }
     stage('Build and Test') {
